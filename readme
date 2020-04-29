@@ -1,0 +1,17 @@
+go rest api docker
+==================
+
+BUILD
+-----
+
+docker build -f Dockerfile . -t gorestapi:latest
+
+RUN
+---
+
+docker run --rm -p 8080:8080 gorestapi:latest
+
+URLs
+----
+
+http://localhost:8080/test/1
